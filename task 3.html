@@ -1,0 +1,436 @@
+<html>
+    <head>
+        <style>
+
+table{
+    text-align: center;
+    margin: auto;
+}
+#header{
+    color: white;
+    background-color: black;
+}
+.sublime{
+    background-color: rgb(173, 170, 167);
+}
+#headerl{
+    background-color: black;
+    color: white;
+}
+.class{
+    background-color: rgb(196, 187, 177);
+}
+#headerM{
+    height:400px;
+    width: 450px;
+    border: 1px solid black;
+    margin: auto;
+    text-align: center;
+}
+#headerh{
+    height:42px;
+    background-color: rgb(36, 31, 31);
+    color: white;
+    font-size: 25px;
+    padding: 8px;
+}
+#slider{
+    height: 290px;
+    background-color:rgb(134, 119, 119);
+}
+#content{
+    height: 190px;
+    width: 350px;
+    background-color: rgb(134, 119, 119);
+    font-size:50px;
+    float: left;
+    padding-top: 100px;
+}
+#sidebar{
+    height: 190px;
+    width:100px;
+    background-color: rgb(54, 48, 48);
+    float: right;
+    font-size: 25px;
+    padding-top:100px;
+}
+#footer{
+    height:42px;
+    font-size: 25px;
+    padding: 8px;
+    background-color: black;
+    color: white;
+}
+#outerr{
+    height:328px;
+    width: 400px;
+    border: 5px solid rgb(79, 74, 74);
+    background-color: rgb(145, 116, 116);
+    margin-left: 200px;
+}
+#ab1{
+    height:100px;
+    width: 120px;
+    border: 5px solid rgb(79, 74, 74);
+    float: left;
+    
+}
+#aa1{
+    height:100px;
+    width: 111px;
+    border: 5px solid rgb(79, 74, 74);
+    float:right;
+}
+#a1{
+    height: 100px;
+    width: 140px;
+    border:5px solid rgb(79, 74, 74);
+    float: left;
+}
+#ab2{
+    height:100px;
+    width: 140px;
+    border: 5px solid rgb(79, 74, 74);
+    float: left;
+    
+}
+#aa2{
+    height:100px;
+    width: 111px;
+    border: 5px solid rgb(79, 74, 74);
+    float:right;
+}
+#a2{
+    height: 100px;
+    width: 120px;
+    border:5px solid rgb(79, 74, 74);
+    float: left;
+}
+#ab3{
+    height:100px;
+    width: 120px;
+    border: 5px solid rgb(79, 74, 74);
+    float: left;
+    
+}
+#aa3{
+    height:100px;
+    width: 111px;
+    border: 5px solid rgb(79, 74, 74);
+    float:right;
+}
+#a3{
+    height: 100px;
+    width: 140px;
+    border:5px solid rgb(79, 74, 74);
+    float: left;
+}
+#out{
+    height:300px;
+    width: 500px;
+    border: 1px solid black;
+    margin-left: 300px;
+}
+#in{
+    height: 70px;
+    background-color: black;
+}
+#mid{
+    height:230px;
+    background-color: rgb(208, 180, 180);
+    margin-top:-20px;
+}
+#bot{
+    height: 70px;
+    background-color: black;
+    margin-top:40px;
+}
+button{
+    margin-top: 20px;
+    margin-left: 40px;
+}
+#inin{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+#box{
+    border: 1px solid black;
+    height: 260px;
+    width: 700px;
+    text-align: center;
+    background-color: rgb(85, 74, 74);
+    margin-left: 350px;
+    padding-top: 40px;
+}
+#calc{
+    height:543px;
+    width:447px;
+    border:6px solid rgb(67, 65, 65);
+    margin:0px auto;
+}
+#top{
+    height:75px;
+    background-color:rgb(43, 39, 39);
+}
+#Ac{
+    height:50px;
+    width:197px;
+    border:1px solid black;
+    background-color:  rgb(182, 145, 145);
+}
+.mul{
+    height:50px;
+    width:124px;
+    border:1px solid black;
+    background-color: rgb(182, 145, 145);
+    float: right;
+    margin-top:-71px;
+
+}
+.num1{
+    height:50px;
+    width:110px;
+    border:1px solid black;
+    background-color:rgb(182,145,145);
+    float: left;
+}
+.eql{
+    height:140px;
+    width:110px;
+    border:1px solid black;
+    background-color:rgb(182,145,145);
+    float: left;
+}
+.zero{
+    height:39px;
+    width:220px;
+    border:1px solid black;
+    background-color:rgb(182,145,145);
+    float: left;
+    margin-top:-90;
+}
+.dot{
+    height:39px;
+    width:112px;
+    border:1px solid black;
+    background-color:rgb(182,145,145);
+    float: left;
+    margin-top:-90;
+}
+        </style>
+    </head>
+    <body>
+        <h1>3.1(A)</h1><br>
+        <table cellspacing="0px" cellpadding="8" height="300px" width="500px">
+            <tr id="header">
+                <th>NAME</th>
+                <th>SUBNAME</th>
+                <th>AGE</th>
+            </tr>
+            <tr class="sublime">
+                <td>Fablo</td>
+                <td>Cimo</td>
+                <td>20</td>
+            </tr>
+            <tr class="sublight">
+                <td>Jasmin</td>
+                <td>Brown</td>
+                <td>18</td>
+            </tr>
+            <tr class="sublime">
+                <td>James</td>
+                <td>Wick</td>
+                <td>35</td>
+            </tr>
+            <tr class="sublight">
+                <td>Donald</td>
+                <td>Dawn</td>
+                <td>29</td>
+            </tr>
+            <tr class="sublime">
+                <td>Maggle</td>
+                <td>Grace</td>
+                <td>15</td>
+            </tr>
+        </table><br><br/><hr><br/><br/>
+        <h1>3.1(B)</h1><br/>
+        <table border="3px" cellspacing="0px" ceelpadding="8" height="350px" width="550px">
+            <tr id="headerl">
+                <th>FullName</th>
+                <th>Age</th>
+                <th>Job Title</th>
+                <th>Location</th>
+            </tr>
+            <tr class="class">
+                <td>Vinsent Williamson</td>
+                <td>31</td>
+                <td>IOS Devolaper</td>
+                <td>Wahington</td>
+            </tr>
+            <tr>
+                <td>Tylor Royes</td>
+                <td>22</td>
+                <td>Ux/Ui Designer</td>
+                <td>Now Yark</td>
+            </tr>
+            <tr>
+                <td>Justin Block</td>
+                <td>26</td>
+                <td>Frontend Devolaper</td>
+                <td>Wahington</td>
+            </tr>
+            <tr class="class">
+                <td>Soan</td>
+                <td>36</td>
+                <td>IOS Devolaper</td>
+                <td>London</td>
+            </tr>
+            <tr>
+                <td>keith Karter</td>
+                <td>32</td>
+                <td>back-end Devolaper</td>
+                <td>Wahington</td>
+            </tr>
+        </table><br/>
+        <hr/><br>
+        <h1>3.2</h1><br/>
+        <div id="headerM" >
+        <div id="headerh">Header</div>
+        <div id="slider">
+            <div id ="content">content</div>
+            <div id="sidebar">sidebar</div>
+        </div>
+        <div id="footer">Footer</div>
+        </div><br><br>
+        <hr><br>
+        <h1>3.3</h1><br><br>
+        <div id="outerr">
+        <div id="ab1">This is box 1</div>
+        <div id="a1">This is div 2</div>
+        <div id="aa1">This is div 3</div>
+        <div id="ab2">This is box 4</div>
+        <div id="a2">This is div 5</div>
+        <div id="aa2">This is div 6</div>
+        <div id="ab3">This is box 7</div>
+        <div id="a3">This is div 8</div>
+        <div id="aa2">This is div 9</div>
+        </div><br><hr>
+        <h1>3.4</h1><br>
+        <div id="out">
+            <div id="in">
+                <div id="inin">50+</div>
+                <span style="color: white;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae adipisci.</span>
+            </div>
+            <div id="mid">
+                <p style="font-size:18px;">Lorem ipsum dolor sit amet consectetur<br> adipisicing elit. Repudiandae quidem<br> eligendi consectetur minima explicabo<br> atque, obcaecati voluptas, optio<br> laborum beatae quas iusto aspernatur <br>aperiam quo! Incidunt iusto placeat vel neque!</p>
+           
+            <div id="bot">
+                <button style="height: 30px; width: 70px;color: white; background-color: aqua;">button1</button>
+                <button style="height: 30px; width: 70px;color: white; background-color: aqua;">button2</button>
+                <button style="height: 30px; width: 70px;color: white; background-color: aqua;">button3</button>
+            </div>
+        </div>
+        </div><br><br>
+        <h1>3.5</h1><br>
+        <table border="1px solid Black">
+            <tr style="background-color: aquamarine;">
+                <th>Product Id</th>
+                <th>Product Name</th>
+                <th>Product Qauntity</th>
+                <th>Product Pic</th>
+                <th>Order</th>
+            </tr>
+            <tr style="background-color: blanchedalmond;">
+                <td>101</td>
+                <td>Mouse</td>
+                <td>
+                        <select>
+                            <option>
+                                select
+                            </option>
+                        </select>
+                </td>
+                <td>
+                    <img src="./piccture/mouse.jpg "height="50px" width="50px">
+                </td>
+                <td><input type="checkbox"></td>
+            </tr>
+            <tr>
+                <td>102</td>
+                <td>Printer</td>
+                <td>
+                        <select>
+                            <option>
+                                select
+                            </option>
+                        </select>
+                </td>
+                <td>
+                    <img src="./piccture/printer "height="50px" width="50px">
+                </td>
+                <td><input type="checkbox"></td>
+            </tr>
+            <tr style="background-color: blanchedalmond;">
+                <td>103</td>
+                <td>Scanner</td>
+                <td>
+                        <select>
+                            <option>
+                                select
+                            </option>
+                        </select>
+                </td>
+                <td>
+                    <img src="./piccture/scaner.jpg "height="50px" width="50px">
+                </td>
+                <td><input type="checkbox"></td>
+            </tr>
+            <tr>
+                <td>104</td>
+                <td>Moniter</td>
+                <td>
+                        <select>
+                            <option>
+                                select
+                            </option>
+                        </select>
+                </td>
+                <td>
+                    <img src="./piccture/moniter.jpg "height="50px" width="50px">
+                </td>
+                <td><input type="checkbox"></td>
+            </tr>
+        </table><hr>
+        <br>
+        <h1>3.7</h1><br><br>
+        <div id="calc">
+            <div id="top"></div>
+            <div id="Ac" style="font-size:25px; color:white;text-align:center;padding-top:20px;">AC</div>
+            <div class="mul" style="font-size:25px; color: white; text-align: center;padding-top:20px;">X</div>
+            <div class="mul"style="font-size:25px; color: white; text-align: center;padding-top:20px;">/</div>
+           <div class="num1"style="font-size:25px; color: white; text-align: center;padding-top:50px;">7</div> 
+           <div class="num1"style="font-size:25px; color: white; text-align: center;padding-top:50px;">8</div> 
+           <div class="num1"style="font-size:25px; color: white; text-align: center;padding-top:50px;">9</div> 
+           <div class="num1"style="font-size:25px; color: white; text-align: center;padding-top:50px;">-</div>
+           <div class="num1"style="font-size:25px; color: white; text-align: center;padding-top:50px;">4</div> 
+           <div class="num1"style="font-size:25px; color: white; text-align: center;padding-top:50px;">5</div> 
+           <div class="num1"style="font-size:25px; color: white; text-align: center;padding-top:50px;">6</div> 
+           <div class="num1"style="font-size:25px; color: white; text-align: center;padding-top:50px;">+</div> 
+           <div class="num1"style="font-size:25px; color: white; text-align: center;padding-top:50px;">1</div> 
+           <div class="num1"style="font-size:25px; color: white; text-align: center;padding-top:50px;">2</div> 
+           <div class="num1"style="font-size:25px; color: white; text-align: center;padding-top:50px;">3</div> 
+           <div class="eql"style="font-size:25px; color: white; text-align: center;padding-top:50px;">=</div>
+           <div class="zero"style="font-size:25px; color: white; text-align: center;padding-top:50px;" width="110px;">0</div>
+           <div class="dot"style="font-size:25px; color: white; text-align: center;padding-top:50px;">.</div>
+        </div>
+        <h1>3.8</h1>
+        <br><br>
+        <div id="box">
+            <span style="font-size: 35px; color: white">Login Form</span><br/><br/>
+            User ID:<input type="text" placeholder="User id" style=" height: 40px; width: 250px;"/><br/><br/>
+            password:<input type="password" style="height: 40px; width:230px;"/><br/><br/>
+            <input type="submit" value="Login" style="height: 40px; width:110px; background-color: blue; border-radius:20px;"/><br/><br/>
+        </div>
+    </body>
+</html>
